@@ -1,0 +1,17 @@
+/* .wrap{    
+    height: 100vh;  
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+} */
+.container2{
+    width: 1200px;
+            margin: auto;
+            display: flex;
+}
+.item{
+    width: 50px;
+    margin: 0 15px;
+    display: flex;
+    border: 1px solid black;
+}

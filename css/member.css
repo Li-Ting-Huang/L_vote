@@ -1,0 +1,54 @@
+body{
+    background: url("https://picsum.photos/id/103/600/400") no-repeat center center /cover;
+}
+.login {
+    width: 400px;
+    height: 100%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    border: 10px solid #fff;
+    box-shadow: 0 0 10px #000;
+    /* color: #fff; */
+    /* 毛玻璃效果 */
+    backdrop-filter: blur(5px);
+}
+
+h2{
+    
+    margin-bottom: 20px;
+    border-bottom: 1px solid #000;
+}
+
+.group label {
+    width: 25%;
+    font-weight: bolder;
+    color: #fff;
+}
+
+.group {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.group input {
+    width: 75%;
+    border: 1px solid #aaa;
+    line-height: 2;
+    border-radius: 5px;
+}
+
+.btn-group {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+/* .btn {
+    margin: 10px;
+} */

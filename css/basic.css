@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+}
+.background{
+    position: absolute;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* z-index: -1; */
+    background:linear-gradient(45deg, #a2d2ff, #08c7a5);
+}
+
+.header{
+    position: relative;
+    width: 100%;
+    min-height: 15vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #171818;
+    opacity: 0.5;
+    backdrop-filter: blur(5px);
+}
+.section{
+    position: relative;
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    min-height: 5vh;
+    display: flex;
+    justify-content: center;
+    background: #0000008a;
+}
+.btn{
+    color: #fff;
+    display: inline-block;
+    border:3px solid #fff;
+    border-radius:5px;
+    background:grey;
+    padding:0.25rem 0.75rem;
+    margin: 10px;
+    font-size:1.1rem;
+    font-weight: bold;
+    box-sizing: 0 0 10px #ccc;
+}
+.btn.btn-primary{
+    background-color:rgb(71, 137, 235);
+}
+.btn.btn-info{
+    background-color:aqua;
+}
+.btn.btn-danger{
+    background-color:rgb(248, 78, 78);
+}
+.btn.btn-warning{
+    background-color:rgb(221, 190, 11);
+}
+
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+.red{
+    color: red;
+}
+.white{
+    color: white;
+}
